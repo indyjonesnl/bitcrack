@@ -1,0 +1,15 @@
+[package]
+name = "bitcrack"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bitcoin = "0.31.1"
+ctrlc = "3.4.4"
+minreq = { version = "2.11.2", features = ["json-using-serde"] }
+rayon = "1.10.0"
+serde = { version = "1.0.202", features = ["derive"] }
+serde_json = "1.0.117"
+
+[dev-dependencies]
+rstest = "0.18.2"
